@@ -1,0 +1,55 @@
+.content
+  background: black
+  width: 100vw
+  height: calc(100vh - 60px)
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+  .record
+    margin: 0 auto
+    width: 300px
+    height: 300px
+    border-radius: 50%
+    animation-duration: 4s
+    animation-iteration-count: infinite
+    animation-timing-function: linear
+    background:
+      image: url('http://soulfunkandjazz.net/wp-content/uploads/2016/11/soul-funk-and-jazz-logo_512px-300x300.png')
+      size: cover
+
+
+.playing
+  animation-name: spin
+
+.audio
+  margin: 0 auto
+  width: 100px
+
+.controls
+  width: 100%
+  margin: 0 auto
+  text-align: center
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+audio
+  margin: 0 auto
+
+#pauseButton, #playButton
+  margin: 0 auto
+
+@keyframes spin
+  100%
+    transform: rotate(360deg)
+
+#volumeIncrease, #volumeDecrease
+  color: white
+  font-weight: bold
+  font-size: 300%
+
+.volume
+  display: inline-flex
+  flex-direction: row
+  justify-content: center
