@@ -48,6 +48,21 @@
         },
         "cordova-plugin-media": {
             "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "net.soulfunkandjazz.app"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "net.soulfunkandjazz.app"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "net.soulfunkandjazz.app"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "net.soulfunkandjazz.app"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "net.soulfunkandjazz.app"
         }
     },
     "dependent_plugins": {
